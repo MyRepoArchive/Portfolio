@@ -1,0 +1,20 @@
+#sobre {
+    text-align: justify;
+    background-color: #48b300;
+    color: #ffffff;
+}
+
+#sobre h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#sobre p {
+    text-indent: 2rem;
+    margin-bottom: 1rem;
+}
+
+.verdeamarelado {
+    color: #F0DB4F;
+    font-weight: bolder;
+}
