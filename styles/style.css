@@ -7,8 +7,7 @@ html,body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    overflow: visible;
-    zoom: 1;
+    overflow-x: hidden;
 }
 
 body, html, button, a {
@@ -49,4 +48,10 @@ article {
 #agradecimento img {
     height: 2rem;
     vertical-align: -0.4rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        font-size: 100%;
+    }
 }

@@ -47,3 +47,17 @@
 .instituicao .target-em-andamento {
     background: linear-gradient(to right, orange, orange 60%, gray 1px, gray 100%);
 }
+
+@media (min-width: 550px) {
+    #instituicoes {
+        text-align: center;
+    }
+
+    .instituicao {
+        width: 400px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+}

@@ -1,11 +1,17 @@
 header#apresentacao {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #48b300;
     min-height: 100vh;
     padding-top: 5rem;
     width: 100vw;
     color: #ffffff;
     padding-bottom: 2rem;
+}
+
+#container-header {
+    text-align: center;
 }
 
 #perfil {

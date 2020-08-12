@@ -56,3 +56,22 @@
 .projeto a:hover {
     opacity: 0.8;
 }
+
+@media (min-width: 550px) {
+    #portfolio {
+        text-align: center;
+    }
+
+    .projeto {
+        width: 400px;
+        display: inline-block;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        vertical-align: top;
+    }
+
+    .projeto img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

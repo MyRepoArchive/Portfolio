@@ -18,3 +18,21 @@
     color: #F0DB4F;
     font-weight: bolder;
 }
+
+@media (min-width: 800px) {
+    #container-sobre {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .esq {
+        width: calc(50% - 1rem);
+        display: inline-block;
+    }
+
+    .dir {
+        width: calc(50% - 1rem);
+        float: right;
+    }
+}
