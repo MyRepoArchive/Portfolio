@@ -21,4 +21,32 @@ article {
     padding: 5rem 1.5rem;
 }
 
-img {max-width: 50vw}
+#contact {
+    background: #48b300;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact img {
+    height: 5rem;
+}
+
+#contact #github-img {
+    height: 4rem;
+}
+
+#agradecimento {
+    text-align: center;
+    color: white;
+    background: #48b300;
+    margin: -1px 0;
+    padding: 1rem 0rem 2rem;
+}
+
+#agradecimento img {
+    height: 2rem;
+    vertical-align: -0.4rem;
+}
