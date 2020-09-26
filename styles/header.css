@@ -14,15 +14,9 @@ header#apresentacao {
     text-align: center;
 }
 
-#perfil {
-    width: 60vw;
-    max-width: 17rem;
-    border-radius: 50%;
-    border: 5px solid white;
-}
-
 header#apresentacao h1 {
     margin: 1rem 0 2rem;
+    font-size: 3rem;
 }
 
 .habilidade {
