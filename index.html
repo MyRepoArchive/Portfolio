@@ -3,161 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Currículo • Joao Coelho</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/credtos.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/routes.css">
-    <link rel="stylesheet" href="styles/sobre.css">
-    <link rel="stylesheet" href="styles/instituicoes.css">
-    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
 <body>
-    <header id="apresentacao">
-        <div id="container-header">
-            <h1>João Victor</h1>
-            <p>Habilidades</p>
-            <p id="habilidades">
-                <div class="habilidade" id="habilidade-html">HTML</div>
-                <div class="habilidade" id="habilidade-css">CSS</div>
-                <div class="habilidade" id="habilidade-javascript">Javascript</div>
-                <div class="habilidade" id="habilidade-node">Node</div>
-            </p>
+    <aside>
+        <div class="content">
+            <header>
+                <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" alt="Foto de perfil com fundo azul claro" id="profile-img">
+                <h1 id="my-name"><span class="slim">João</span> Coelho</h1>
+                <p id="email"><a href="mailto:joaovictor-san-co@hotmail.com">joaovictor-san-co@hotmail.com</a></p>
+            </header>
+    
+            <hr>
+    
+            <section id="personal-info">
+                <ul>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/calendario.svg" alt="Calendário">
+                            Data de nascimento
+                        </h2>
+                        <p>04 de Junho de 2004</p>
+                    </li>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/mortarboard.svg" alt="Chapeu de formatura">
+                            Escolaridade
+                        </h2>
+                        <p>Médio incompleto</p>
+                    </li>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/github.svg" alt="Ícone GitHub">
+                            GitHub
+                        </h2>
+                        <p id="github"><a href="http://github.com/joaoscoelho" target="_blank" rel="noopener noreferrer">github/joaoscoelho</a></p>
+                    </li>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/linkedin.svg" alt="Ícone LinkedIn">
+                            LinkedIn
+                        </h2>
+                        <p id="linkedin"><a href="https://www.linkedin.com/in/joao-victor-santana-coelho-289255118" target="_blank" rel="noopener noreferrer">linkedin/joao-victor-santana-coelho</a></p>
+                    </li>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/celular.svg" alt="Celular">
+                            Celular
+                        </h2>
+                        <p>(74) 9 9933-6789</p>
+                    </li>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/medalha.svg" alt="Medalha">
+                            Objetivos
+                        </h2>
+                        <p id="objetivos-text">Conseguir experiência na área da programação, aprofundar meus conhecimentos nas tecnologias usadas no mercado e auxiliar na solução de problemas que possam vir a ocorrer.</p>
+                    </li>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/status.svg" alt="Status">
+                            Declaração pessoal
+                        </h2>
+                        <p id="personal-statement-text">Desenvolvendo para web com JavaScript desde meados de 2020, também atuando na criação de alguns bots para a plataforma Discord de código aberto. Um deles com centenas de usuários. Outro com um sistema de multiplas línguas para atender uma variedade maior de usuários.</p>
+                    </li>
+                    <li>
+                        <h2>
+                            <img class="icon" src="assets/images/experiencia.svg" alt="Experiência">
+                            Experiências
+                        </h2>
+                        <ul id="experience-list">
+                            <li>
+                                <h3 class="experience-button"><img src="assets/images/right-arrow.svg" alt="Seta à direita">Site de reviews</h3>
+                                <p>É um site estático feito em HTML5 e CSS3 com um pouco de JavaScript em algumas partes, feito para fazer um review de alguns produtos que eu compro.<br><a href="http://joaoscoelho.github.io/STROMIX_Reviews" target="_blank" rel="noopener noreferrer">Site</a> - <a href="http://github.com/joaoscoelho/STROMIX_Reviews" target="_blank" rel="noopener noreferrer">Repositório</a></p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
         </div>
-    </header>
+    </aside>
 
-    <div id="aba-buttons">
-        <div class="container-buttons">
-            <a href="#sobre">Sobre</a>
-            <a href="#instituicoes">Instituições</a>
-            <a href="#portfolio">Portfólio</a>
-            <a href="#contact">Contato</a>
-        </div>
+    <div class="container-creditos">
+        <section id="creditos">
+            <h1>Ícones</h1>
+            <p>Ícones feitos por <a href="https://www.flaticon.com/br/autores/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> e <a href="https://www.flaticon.com/br/autores/smashicons" title="Smashicons">Smashicons</a> de <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></p>
+        </section>
+    </div>
+    
+    <div id="container-creditos-button">
+        <button>CRÉDITOS</button>
     </div>
 
-    <article id="sobre">
-        <div id="container-sobre">
-            <h2>Como eu entrei no mundo da programação</h2>
-            <p>
-                <div class="esq">
-                    <p>
-                        Me chamo <span class="verdeamarelado">João Victor</span> tenho <span class="verdeamarelado">16 anos de idade</span> e esse um resumo da minha história como programador e desenvolvedor.
-                    </p>
-        
-                    <p>
-                        Eu começei a me interessar por T.I e programação com mais ou menos 14 anos, mas não me apronfudava muito no assunto por medo de ser muito difícil e eu não entender nada, mas aos 15 anos eu criei um servidor no <span class="verdeamarelado">Discord</span> e o servidor precisou de um <span class="verdeamarelado">Bot</span> para divertir a galera e para mostrar de forma automatizada algumas informações do servidor, como na minha equipe de administração não havia niguém que sabia criar bots, eu mesmo fui me <span class="verdeamarelado">aventurar no mundo da programação</span>.
-                    </p>
-        
-                    <p>
-                        Começei assistindo alguns tutoriais no Youtube de como criar bots e conheci o <span class="verdeamarelado">JavaScript</span>, que foi a linguagem que eu usei para criar o meu primeiro bot, mas naquela época eu não sabia quase nada de como programar e não conseguia fazer nada além do que eu via no próprio Youtube.
-                    </p>
-                </div>
-        
-                <div class="dir">
-                    <p>
-                        Agora, em <span class="verdeamarelado">2020</span>, no meio da pandemia de Covid-19, como estamos todos (os que podem) em casa, eu resolvi me aprofundar no <span class="verdeamarelado">JavaScript</span>, fiz um curso online gratúito da linguagem e descobri também o mundo do <span class="verdeamarelado">desenvolvimento web</span>, que sinceramente, gostei bastante. Logo após concluir as aulas de <span class="verdeamarelado">JavaScript</span> eu fui buscar mais informações sobre o desenvolvimento web e aprendi também o básico do <span class="verdeamarelado">HTML5</span> e de <span class="verdeamarelado">CSS3</span>.
-                    </p>
-            
-                    <p>
-                        Atualmente eu faço alguns <span class="verdeamarelado">sites</span> por conta própria para aprimorar meus conhecimentos e também estou procurando conhecer novas tecnologias como <span class="verdeamarelado">PHP, Java, Python</span>, etc.
-                    </p>
-                </div>
-            </p>
-        </div>
-    </article>
-
-    <article id="instituicoes">
-        <h2>Instituições de Ensino</h2>
-        <div class="instituicao">
-            <header>
-                <img src="images/iconfinder_institution_299062.svg" alt="Instituição">
-                <strong>Grupo Escolar Getúlio Vargas</strong>
-            </header>
-            <p>Ensino Fundamental II</p>
-            <div class="target-concluido">CONCLUÍDO</div>
-        </div>
-        <div class="instituicao">
-            <header>
-                <img src="images/iconfinder_institution_299062.svg" alt="Instituição">
-                <strong>Curso em vídeo</strong>
-            </header>
-            <p>Curso de JavaScript<br><span class="meio-opaco">+</span><br>Curso de HTML5 e CSS3<br><span class="meio-opaco">+</span><br>Curso de lógica de programação<br><span class="meio-opaco">+</span><br>Curso de MySQL</p>
-            <div class="target-concluido">CONCLUÍDO</div>
-        </div>
-        <div class="instituicao">
-            <header>
-                <img src="images/iconfinder_institution_299062.svg" alt="Instituição">
-                <strong>Instituto de Educação, Ciência e Tecnologia da Bahia</strong>
-            </header>
-            <p>Ensino Médio<br><span class="meio-opaco">+</span><br>Curso técnico em Eletromecânica</p>
-            <div class="target-em-andamento">EM ANDAMENTO</div>
-        </div>
-        <div class="instituicao">
-            <header>
-                <img src="images/iconfinder_institution_299062.svg" alt="Instituição">
-                <strong>Rocketseat</strong>
-            </header>
-            <p>Curso de JavaScript<br><span class="meio-opaco">+</span><br>Curso de JavaScript ES6<br></p><div class="target-concluido">CONCLUÍDO</div><br><p>Curso de NodeJS<br><span class="meio-opaco">+</span><br>Curso de ReactJS<br><span class="meio-opaco">+</span><br>Curso de React Native</p>
-            <div class="target-em-andamento">EM ANDAMENTO</div>
-        </div>
-    </article>
-
-    <article id="portfolio">
-        <h2>Portfólio</h2>
-        <div class="projeto">
-            <img src="images/mathgame.PNG" alt="MathGame">
-            <p class="target-projeto-concluido">CONCLUÍDO</p>
-            <h3>MathGame</h3>
-            <p>
-                MathGame é um jogo de navegador, feito em JavaScript, com o objetivo de melhorar a capacidade de seus jogadores de fazer calculos rápidos, mas tudo isso de uma maneira que não seja chata e desgastante.
-            </p>
-            <a href="https://joaoscoelho.github.io/GameMath" target="_blank" rel="noopener noreferrer">Acesse o site</a>
-            <a href="https://github.com/joaoscoelho/gamemath" target="_blank" rel="noopener noreferrer">Código</a>
-        </div>
-        <div class="projeto">
-            <img src="images/stromix-reviews.PNG" alt="STROMIX Reviews">
-            <p class="target-projeto-concluido">CONCLUÍDO</p>
-            <h3>STROMIX Reviews</h3>
-            <p>
-                O STROMIX Reviews é o primeiro dos sites da STROMIX, ele é um site que mostra reviews de alguns produtos que eu tenho, de acordo com o meu ponto de vista e tentando ser o mais técnico e detalhado o possível para possivelmente ajudar pessoas que tenham interesse em investir dinheiro naquele ítem.
-            </p>
-                <a href="https://joaoscoelho.github.io/STROMIX_Reviews" target="_blank" rel="noopener noreferrer">Acesse o site</a>
-                <a href="https://github.com/joaoscoelho/stromix_reviews" target="_blank" rel="noopener noreferrer">Código</a>
-        </div>
-        <div class="projeto">
-            <img src="images/chat-bot-free-wallpaper-robot-holds-phone-responds-messages_80328-162.jpg" alt="Site pessoal">
-            <p class="target-projeto-concluido">CONCLUÍDO</p>
-            <h3>Personal Website</h3>
-            <p>
-                Meu site pessoal para postar trabalhos escolares e projetos.
-            </p>
-                <a href="https://joaoscoelho.github.io" target="_blank" rel="noopener noreferrer">Acesse o site</a>
-                <a href="https://github.com/JoaoSCoelho/JoaoSCoelho.github.io" target="_blank" rel="noopener noreferrer">Código</a>
-        </div>
-        <div class="projeto">
-            <img src="images/coffee-zorro-16x9.webp" alt="Café com rosto">
-            <p class="target-projeto-em-desenvolvimento">EM DESENVOLVIMENTO</p>
-            <h3>Coffee</h3>
-            <p>
-                Um Bot para o Discord de código aberto, que utiliza o Node juntamente com a biblioteca Discord.js, que facilita a utilização da API do Discord.
-            </p>
-                <a href="https://github.com/joaoscoelho/coffe" target="_blank" rel="noopener noreferrer">Código</a>
-        </div>
-        <div class="projeto">
-            <img src="images/proffy.png" alt="Proffy">
-            <p class="target-projeto-concluido">CONCLUÍDO</p>
-            <h3>Proffy</h3>
-            <p>
-                Projeto feito durante a 2ª edição da "Next Level Week", evento organizado pela Rocketseat.
-            </p>
-                <a href="https://github.com/JoaoSCoelho/Proffy" target="_blank" rel="noopener noreferrer">Código</a>
-        </div>
-    </article>
-    <div id="contact">
-        <a href="mailto:joaovictor-san-co@hotmail.com"><img src="images/mail.svg" alt="Mail"></a>
-        <a href="https://www.linkedin.com/in/joao-victor-santana-coelho-289255118" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.svg" alt="LinkedIn"></a>
-        <a href="https://github.com/JoaoSCoelho" target="_blank" rel="noopener noreferrer"><img src="images/github.svg" alt="GitHub" id="github-img"></a>
-    </div>
-    <h2 id="agradecimento">Muito obrigado por ler, agora estamos mais próximos <img src="images/iconfinder_heart_299063.svg" alt="Coração vermelho"></h2>
+    <script src="scripts/showCredits.js"></script>
 </body>
 </html>

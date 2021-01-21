@@ -1,57 +1,108 @@
-:root {
-    font-size: 80%;
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: whitesmoke;
 }
 
-html,body {
-    background: #f0f0f0;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body, html, button, a {
-    font-family: Montserrat;
-    color: rgb(17, 17, 17);
-    text-decoration: none;
+aside {
+  display: flex;
+  flex-basis: 100%;
 }
 
-article {
-    padding: 5rem 1.5rem;
+aside .content {
+  padding: 2rem;
 }
 
-#contact {
-    background: #48b300;
-    margin-top: -1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header {
+  text-align: center;
 }
 
-#contact img {
-    height: 5rem;
+#my-name {
+  font-weight: 400;
+  font-size: 2rem;
 }
 
-#contact #github-img {
-    height: 4rem;
+.slim {
+  font-weight: 200;
 }
 
-#agradecimento {
-    text-align: center;
-    color: white;
-    background: #48b300;
-    margin: -1px 0;
-    padding: 1rem 0rem 2rem;
+#email {
+  font-size: 0.8rem;
+  font-weight: 200;
 }
 
-#agradecimento img {
-    height: 2rem;
-    vertical-align: -0.4rem;
+#email a, #github a, #linkedin a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-@media (min-width: 800px) {
-    :root {
-        font-size: 100%;
-    }
+#profile-img {
+  width: 60%;
+  max-width: 250px;
+  border-radius: 100%;
+}
+
+hr {
+  margin-top: 1rem;
+}
+
+#personal-info {
+  margin-top: 1rem;
+}
+
+#personal-info ul {
+  list-style: none;
+}
+
+#personal-info h2 {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  height: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+#personal-info p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+#experience-list h3 {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-weight: 600;
+  color: rgb(0, 179, 179);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  line-height: 1rem;
+}
+
+#experience-list h3 img {
+  height: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+#personal-info #objetivos-text, #personal-info #personal-statement-text {
+  text-align: justify;
 }
