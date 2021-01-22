@@ -8,15 +8,16 @@
 
 #creditos {
   min-height: 100vh;
-  max-width: 400px;
+  max-width: 200px;
   text-align: left;
   background-color: blueviolet;
-  top: 0;
   color: white;
   border: 1px solid gray;
-  padding: 2rem;
-  border-radius: 1rem;
-  margin: auto;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  position: fixed;
+  right: 0;
+  font-size: .7rem;
 }
 
 #creditos a {
@@ -26,6 +27,7 @@
 #creditos h1 {
   text-align: center;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 #container-creditos-button {
@@ -38,18 +40,19 @@
 }
 
 #container-creditos-button button {
-  border-radius: 1rem;
+  border-top-left-radius: .7rem;
   border: none;
   position: fixed;
   color: white;
   background-color: blueviolet;
-  padding: 0.5rem 1rem 0.5rem;
+  padding: 0.3rem .8rem 0.3rem;
   font-weight: 600;
   z-index: 1;
-  margin: auto;
+  right: 0;
   cursor: pointer;
   font-family: Poppins;
   transition: top 1s ease;
+  font-size: 0.7rem;
 }
 
 #container-creditos-button button:focus {
