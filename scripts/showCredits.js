@@ -7,8 +7,8 @@ creditosButton.style.top = 'calc(100vh - 2rem)';
 
 creditosButton.addEventListener('click', () => {
   if (creditosDiv.style.top === 'calc(100vh - 1rem)') {
-    creditosDiv.style.top = '2rem'
-    creditosButton.style.top = '1rem';
+    creditosDiv.style.top = `calc(100% - 10rem - ${creditos.querySelector('p').innerText.length / 30}rem)`
+    creditosButton.style.top = `calc(100% - 11rem - ${creditos.querySelector('p').innerText.length / 30}rem)`;
   } else {
     creditosDiv.style.top = 'calc(100vh - 1rem)';
     creditosButton.style.top = 'calc(100vh - 2rem)';

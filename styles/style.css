@@ -6,7 +6,6 @@ html, body {
   min-height: 100vh;
   font-family: Poppins;
   font-weight: 400;
-  background-color: whitesmoke;
 }
 
 * {
@@ -15,9 +14,13 @@ html, body {
   box-sizing: border-box;
 }
 
-aside {
-  display: flex;
-  flex-basis: 100%;
+#container-main {
+  min-height: 100vh;
+}
+
+main {
+  background-color: whitesmoke;
+  min-height: 100vh;
 }
 
 aside .content {
@@ -38,11 +41,11 @@ header {
 }
 
 #email {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 200;
 }
 
-#email a, #github a, #linkedin a {
+#email a, #github a, #linkedin a, #celular a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
@@ -87,6 +90,17 @@ hr {
   margin-bottom: 1rem;
 }
 
+#personal-info #formacao-list, #personal-info #tecnologias {
+  list-style: circle;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+#formacao-list p, #tecnologias p {
+  margin-bottom: 0;
+  text-align: left;
+}
+
 #personal-info #objetivos-text, #personal-info #personal-statement-text {
   text-align: justify;
 }
@@ -111,6 +125,7 @@ hr {
 #experience-list p {
   text-align: justify;
   margin-left: 1.3rem;
+  margin-bottom: 1.5rem;
 }
 
 #experience-list p a {
@@ -122,14 +137,80 @@ hr {
   color: #557eca;
 }
 
-#tecnologias li {
-  display: flex;
-  align-items: center;
-  font-size: 0.8rem;
-  font-weight: 300;
+.link-icon {
+  height: 0.6rem;
 }
 
-.tec-icon {
-  border-radius: 100%;
-  height: 1.2rem;
+@media (min-width: 460px) {
+  #formacao-list li, #tecnologias li {
+    display: inline-block;
+    margin: 0.5rem;
+    background-color: #c7c7c7;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  #formacao-list p, #tecnologias p {
+    font-weight: 400;
+  }
 }
+
+@media (min-width: 700px) {
+  #container-main {
+    width: 100%;
+    background-color: #e4e4e4;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+  }
+
+  aside {
+    align-items: center;
+    max-width: 300px;
+    border-right: 1px solid #969696;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    min-height: 100vh;
+  }
+
+  #container-right-area {
+    display: inline-block;
+    max-width: 695px;
+    padding: 2rem;
+    grid-column: 2;
+  }
+
+  #right-area h2 {
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  #right-area .icon {
+    height: 1.8rem;
+  }
+
+  #right-area ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+  }
+
+  #right-area .desktop-keep-right > p {
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+  }
+
+  #right-area #formacao-list, #right-area #tecnologias {
+    list-style: circle;
+    margin-left: 1rem;
+  }
+};
