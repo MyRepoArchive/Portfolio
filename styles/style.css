@@ -87,6 +87,10 @@ hr {
   margin-bottom: 1rem;
 }
 
+#personal-info #objetivos-text, #personal-info #personal-statement-text {
+  text-align: justify;
+}
+
 #experience-list h3 {
   font-size: 0.9rem;
   opacity: 0.8;
@@ -95,14 +99,25 @@ hr {
   cursor: pointer;
   display: flex;
   align-items: center;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
 #experience-list h3 img {
   height: 0.8rem;
   margin-right: 0.5rem;
+  transition: transform ease 0.5s;
 }
 
-#personal-info #objetivos-text, #personal-info #personal-statement-text {
+#experience-list p {
   text-align: justify;
+  margin-left: 1.3rem;
+}
+
+#experience-list p a {
+  color: cornflowerblue;
+  font-weight: 600;
+}
+
+#experience-list p a:visited {
+  color: #557eca;
 }
